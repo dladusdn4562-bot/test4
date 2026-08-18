@@ -5,6 +5,7 @@
 @media screen and (max-width:1920px) {
     .con {
         max-width: var(--container);
+        
     }
 }
    
