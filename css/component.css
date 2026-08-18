@@ -36,7 +36,7 @@
   --padding-SMALL: var(--num12) var(--num24);
 
   --padding-grid-MEDIUM: var(--num40);
-  --padding-grid-LARGE: var(--num80);
+  --padding-grid-LARGE: var(--num140);
 
   --icon-FS-XS: var(--font-text-size18);
   --icon-W-XS: var(--font-weight300);

@@ -3,10 +3,11 @@
    @media 조건식에는 css변수를 사용할 수 없어 고정 px 값을 사용한다.
    ============================================================ */
 @media screen and (max-width: 1600px) {
-  .con { padding-left: var(--padding-grid-MEDIUM); padding-right: var(--padding-grid-MEDIUM); }
+  .con { padding-left: var(--padding-grid-MEDIUM); padding-right: var(--padding-grid-MEDIUM);
+    }
 }
 
-.gnb { display: block; }
+
 
 @media screen and (max-width: 1024px) {
   .header-con { height: var(--num64); }
