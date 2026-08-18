@@ -84,7 +84,11 @@
 
 /* ------ BEST PICKS ------ */
 .tab-list { margin-bottom: var(--num28); overflow-x: auto; }
-.product-grid { margin-top: var(--num4); }
+.product-grid { 
+  margin-top: var(--num4); 
+  /* best picks 세로 정렬 -> 사로 정렬 수정  */
+  display: flex;
+}
 .best-picks-extra { display: none; }
 
 /* ------ COLLECTION ------ */
