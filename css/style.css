@@ -1,3 +1,8 @@
+/* body , html {
+  width:100%; 
+  min-width: var(--GW-XXS);
+  overflow: hidden;
+} */
 /* ------ 헤더 ------ */
 .site-header {
   position: absolute;

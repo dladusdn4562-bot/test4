@@ -3,7 +3,9 @@
    @media 조건식에는 css변수를 사용할 수 없어 고정 px 값을 사용한다.
    ============================================================ */
 @media screen and (max-width:1920px) {
-    .con {max-width: var(--container);}
+    .con {
+        max-width: var(--container);
+    }
 }
    
 @media screen and (max-width: 1600px) {
